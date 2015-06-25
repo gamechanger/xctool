@@ -301,8 +301,6 @@ apple_library(
         'Common/XCTest.h',
     ],
     preprocessor_flags = [
-        '-DSENTEST_IGNORE_DEPRECATION_WARNING',
-        '-F$SDKROOT/Developer/Library/Frameworks',
         '-F$DEVELOPER_DIR/Library/Frameworks',
     ],
     compiler_flags = [
@@ -317,7 +315,6 @@ apple_library(
     frameworks = [
         '$SDKROOT/System/Library/Frameworks/Foundation.framework',
         '$PLATFORM_DIR/Developer/Library/Frameworks/XCTest.framework',
-        '$SDKROOT/Developer/Library/Frameworks/SenTestingKit.framework',
     ],
 )
 

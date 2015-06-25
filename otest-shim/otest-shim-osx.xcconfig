@@ -21,9 +21,6 @@ XT_INSTALL_DIR = lib
 
 MACOSX_DEPLOYMENT_TARGET = 10.7
 
-// Needed so we can #import from SenTestingKit.
-OTHER_CFLAGS = -F"$(DEVELOPER_FRAMEWORKS_DIR)"
-
 // When running Xcode 4.6 on 10.9, the otest-shim-osx build will fail while
 // trying to lipo the two binaries for i386 + x86_64 together.  For that combo
 // only, disable Universal binaries.  This will let us keep debugging 4.6 issues

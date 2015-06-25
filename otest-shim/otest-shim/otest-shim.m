@@ -19,7 +19,36 @@
 
 #import <Foundation/Foundation.h>
 
-#import <SenTestingKit/SenTestingKit.h>
+@interface SenTest : NSObject
+@end
+
+@interface SenTestRun : NSObject
+
+- (SenTest *)test;
+- (unsigned int)testCaseCount;
+
+- (unsigned int)failureCount;
+- (unsigned int)unexpectedExceptionCount;
+- (unsigned int)totalFailureCount;
+- (NSTimeInterval)totalDuration;
+- (NSTimeInterval)testDuration;
+
+@end
+
+@interface NSNotification (XCToolFriend)
+
+- (SenTestRun *)run;
+- (NSException *)exception;
+
+@end
+
+@interface NSException (XCToolFriend)
+
+- (NSString *) filePathInProject;
+- (NSNumber *) lineNumber;
+- (NSString *) filename;
+
+@end
 
 #import <mach-o/dyld.h>
 #import <mach-o/dyld_images.h>
