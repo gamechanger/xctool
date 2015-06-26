@@ -30,7 +30,8 @@
 
 
 #import <Foundation/NSObject.h>
-#import <SenTestingKit/SenTest.h>
+
+#import "SenTest.h"
 
 #define STAssertNil(a1, description, ...)
 #define STAssertNotNil(a1, description, ...)
@@ -70,8 +71,8 @@
 #endif
 
 
-#import <SenTestingKit/SenTestCase_Macros.h>
-#import <SenTestingKit/NSException_SenTestFailure.h>
+#import "SenTestCase_Macros.h"
+#import "NSException_SenTestFailure.h"
 
 /*"A test case defines the fixture to run multiple tests. To define a test case:
 

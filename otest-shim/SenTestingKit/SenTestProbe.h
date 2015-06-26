@@ -29,7 +29,8 @@
 // This notice may not be removed from this file.
 
 #import <Foundation/Foundation.h>
-#import <SenTestingKit/SenTestDefines.h>
+
+#import "SenTestDefines.h"
 
 /*"If you are implementing your own test tool, call this function from your tool's main() function."*/
 SENTEST_EXPORT int SenSelfTestMain(void);

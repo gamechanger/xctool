@@ -62,7 +62,6 @@
 		282BFE1E171602C60022F9FF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		282BFE1F171602C60022F9FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		282BFE29171602F80022F9FF /* otest-shim-osx.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "otest-shim-osx.xcconfig"; sourceTree = "<group>"; };
-		282BFE2C1716049F0022F9FF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2839BE5E183FEB6F000D7BEC /* SenTestClassEnumeratorFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenTestClassEnumeratorFix.h; sourceTree = "<group>"; };
 		2839BE5F183FEB6F000D7BEC /* SenTestClassEnumeratorFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenTestClassEnumeratorFix.m; sourceTree = "<group>"; };
 		2839BE891843CCFF000D7BEC /* SenTestCaseInvokeTestFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenTestCaseInvokeTestFix.h; sourceTree = "<group>"; };
@@ -89,6 +88,24 @@
 		90F7485218E4FAFF00600D5C /* SenIsSuperclassOfClassPerformanceFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SenIsSuperclassOfClassPerformanceFix.h; sourceTree = "<group>"; };
 		90F7485318E4FAFF00600D5C /* SenIsSuperclassOfClassPerformanceFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SenIsSuperclassOfClassPerformanceFix.m; sourceTree = "<group>"; };
 		AA318BE917E9B43000BF159E /* XCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTest.h; sourceTree = "<group>"; };
+		CC451ABC1B3E066000CCC93C /* NSException_SenTestFailure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSException_SenTestFailure.h; sourceTree = "<group>"; };
+		CC451ABD1B3E066000CCC93C /* NSInvocation_SenTesting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSInvocation_SenTesting.h; sourceTree = "<group>"; };
+		CC451ABE1B3E066000CCC93C /* SenInterfaceTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenInterfaceTestCase.h; sourceTree = "<group>"; };
+		CC451ABF1B3E066000CCC93C /* SenTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTest.h; sourceTree = "<group>"; };
+		CC451AC01B3E066000CCC93C /* SenTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestCase.h; sourceTree = "<group>"; };
+		CC451AC11B3E066000CCC93C /* SenTestCase_Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestCase_Macros.h; sourceTree = "<group>"; };
+		CC451AC21B3E066000CCC93C /* SenTestCaseRun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestCaseRun.h; sourceTree = "<group>"; };
+		CC451AC31B3E066000CCC93C /* SenTestDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestDefines.h; sourceTree = "<group>"; };
+		CC451AC41B3E066000CCC93C /* SenTestDistributedNotifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestDistributedNotifier.h; sourceTree = "<group>"; };
+		CC451AC51B3E066000CCC93C /* SenTestingKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestingKit.h; sourceTree = "<group>"; };
+		CC451AC61B3E066000CCC93C /* SenTestingUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestingUtilities.h; sourceTree = "<group>"; };
+		CC451AC71B3E066000CCC93C /* SenTestLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestLog.h; sourceTree = "<group>"; };
+		CC451AC81B3E066000CCC93C /* SenTestObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestObserver.h; sourceTree = "<group>"; };
+		CC451AC91B3E066000CCC93C /* SenTestProbe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestProbe.h; sourceTree = "<group>"; };
+		CC451ACA1B3E066000CCC93C /* SenTestRun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestRun.h; sourceTree = "<group>"; };
+		CC451ACB1B3E066000CCC93C /* SenTestSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestSuite.h; sourceTree = "<group>"; };
+		CC451ACC1B3E066000CCC93C /* SenTestSuiteRun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SenTestSuiteRun.h; sourceTree = "<group>"; };
+		CC8BA5181B3DF8FB00A34C9C /* otest-shim.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "otest-shim.xcconfig"; sourceTree = "<group>"; };
 		CC8D7757196623160035CC60 /* NSInvocationInSetFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSInvocationInSetFix.h; sourceTree = "<group>"; };
 		CC8D7758196623160035CC60 /* NSInvocationInSetFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSInvocationInSetFix.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,11 +143,13 @@
 		283CCA8316C2EE4C00F2E343 = {
 			isa = PBXGroup;
 			children = (
-				282BFE29171602F80022F9FF /* otest-shim-osx.xcconfig */,
 				28E9B98216C2F2D400A52E4D /* otest-shim-ios.xcconfig */,
-				283CCA8E16C2EE4C00F2E343 /* Frameworks */,
+				282BFE29171602F80022F9FF /* otest-shim-osx.xcconfig */,
+				CC8BA5181B3DF8FB00A34C9C /* otest-shim.xcconfig */,
 				28897FC6173E50F9004BA024 /* Common */,
 				283CCA9516C2EE4C00F2E343 /* otest-shim */,
+				CC451ABB1B3E066000CCC93C /* SenTestingKit */,
+				283CCA8E16C2EE4C00F2E343 /* Frameworks */,
 				283CCA8D16C2EE4C00F2E343 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -147,7 +166,6 @@
 		283CCA8E16C2EE4C00F2E343 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				282BFE2C1716049F0022F9FF /* SenTestingKit.framework */,
 				283CCA9416C2EE4C00F2E343 /* Foundation.framework */,
 				282BFE1A171602C60022F9FF /* Cocoa.framework */,
 				282BFE1C171602C60022F9FF /* Other Frameworks */,
@@ -201,6 +219,30 @@
 			);
 			name = Common;
 			path = ../Common;
+			sourceTree = "<group>";
+		};
+		CC451ABB1B3E066000CCC93C /* SenTestingKit */ = {
+			isa = PBXGroup;
+			children = (
+				CC451ABC1B3E066000CCC93C /* NSException_SenTestFailure.h */,
+				CC451ABD1B3E066000CCC93C /* NSInvocation_SenTesting.h */,
+				CC451ABE1B3E066000CCC93C /* SenInterfaceTestCase.h */,
+				CC451ABF1B3E066000CCC93C /* SenTest.h */,
+				CC451AC01B3E066000CCC93C /* SenTestCase.h */,
+				CC451AC11B3E066000CCC93C /* SenTestCase_Macros.h */,
+				CC451AC21B3E066000CCC93C /* SenTestCaseRun.h */,
+				CC451AC31B3E066000CCC93C /* SenTestDefines.h */,
+				CC451AC41B3E066000CCC93C /* SenTestDistributedNotifier.h */,
+				CC451AC51B3E066000CCC93C /* SenTestingKit.h */,
+				CC451AC61B3E066000CCC93C /* SenTestingUtilities.h */,
+				CC451AC71B3E066000CCC93C /* SenTestLog.h */,
+				CC451AC81B3E066000CCC93C /* SenTestObserver.h */,
+				CC451AC91B3E066000CCC93C /* SenTestProbe.h */,
+				CC451ACA1B3E066000CCC93C /* SenTestRun.h */,
+				CC451ACB1B3E066000CCC93C /* SenTestSuite.h */,
+				CC451ACC1B3E066000CCC93C /* SenTestSuiteRun.h */,
+			);
+			path = SenTestingKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -388,10 +430,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(DEVELOPER_DIR)/Library/Frameworks\"",
-				);
 				GCC_PREFIX_HEADER = "otest-shim/otest-shim-Prefix.pch";
 				PRODUCT_NAME = "otest-shim-osx";
 				SDKROOT = macosx;
@@ -405,10 +443,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(DEVELOPER_DIR)/Library/Frameworks\"",
-				);
 				GCC_PREFIX_HEADER = "otest-shim/otest-shim-Prefix.pch";
 				PRODUCT_NAME = "otest-shim-osx";
 				SDKROOT = macosx;

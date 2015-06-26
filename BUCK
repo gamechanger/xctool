@@ -264,6 +264,7 @@ apple_library(
     ],
     headers = COMMON_OTEST_HEADERS + glob([
         'otest-shim/otest-shim/**/*.h',
+        'otest-shim/SenTestingKit/*.h',
     ]) + [
         'Common/dyld-interposing.h',
         'Common/dyld_priv.h',
@@ -271,24 +272,13 @@ apple_library(
         'Common/ReporterEvents.h',
         'Common/XCTest.h',
     ],
-    preprocessor_flags = [
-        '-DSENTEST_IGNORE_DEPRECATION_WARNING',
-        '-F$SDKROOT/Developer/Library/Frameworks',
-        '-F$DEVELOPER_DIR/Library/Frameworks',
-    ],
     compiler_flags = [
         # otest-shim/otest-shim/otest-shim.m:118:69: warning: trigraph ignored [-Wtrigraphs]
         # [NSRegularExpression regularExpressionWithPattern:@"\\e\\[(\\d;)??(\\d{1,2}[mHfABCDJhI])"
         '-Wno-trigraphs',
     ],
-    linker_flags = [
-        '-F$SDKROOT/Developer/Library/Frameworks',
-        '-F$DEVELOPER_DIR/Library/Frameworks',
-    ],
     frameworks = [
         '$SDKROOT/System/Library/Frameworks/Foundation.framework',
-        '$PLATFORM_DIR/Developer/Library/Frameworks/XCTest.framework',
-        '$SDKROOT/Developer/Library/Frameworks/SenTestingKit.framework',
     ],
 )
 

@@ -28,7 +28,7 @@
 // 
 // This notice may not be removed from this file.
 
-#import <SenTestingKit/SenTestRun.h>
+#import "SenTestRun.h"
 
 @class NSMutableArray;
 
@@ -45,7 +45,7 @@
 
 @end
 
-#import <SenTestingKit/SenTestDefines.h>
+#import "SenTestDefines.h"
 SENTEST_EXPORT NSString * const SenTestCaseDidStartNotification;
 SENTEST_EXPORT NSString * const SenTestCaseDidStopNotification;
 SENTEST_EXPORT NSString * const SenTestCaseDidFailNotification;

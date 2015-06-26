@@ -14,17 +14,18 @@
 // limitations under the License.
 //
 
-#import <objc/runtime.h>
-#import <sys/uio.h>
-
 #import <Foundation/Foundation.h>
-
-#import <SenTestingKit/SenTestingKit.h>
 
 #import <mach-o/dyld.h>
 #import <mach-o/dyld_images.h>
 
+#import <objc/runtime.h>
+
+#import <sys/uio.h>
+
 #import "DuplicateTestNameFix.h"
+#import "dyld-interposing.h"
+#import "dyld_priv.h"
 #import "EventGenerator.h"
 #import "NSInvocationInSetFix.h"
 #import "ParseTestName.h"
@@ -32,11 +33,10 @@
 #import "SenIsSuperclassOfClassPerformanceFix.h"
 #import "SenTestCaseInvokeTestFix.h"
 #import "SenTestClassEnumeratorFix.h"
+#import "SenTestingKit.h"
 #import "Swizzle.h"
 #import "TestingFramework.h"
 #import "XCTest.h"
-#import "dyld-interposing.h"
-#import "dyld_priv.h"
 
 @interface XCToolAssertionHandler : NSAssertionHandler
 @end

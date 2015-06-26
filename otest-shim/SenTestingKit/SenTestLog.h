@@ -29,7 +29,8 @@
 // This notice may not be removed from this file.
 
 #import <Foundation/Foundation.h>
-#import <SenTestingKit/SenTestObserver.h>
+
+#import "SenTestObserver.h"
 
 @interface SenTestLog : SenTestObserver
 {

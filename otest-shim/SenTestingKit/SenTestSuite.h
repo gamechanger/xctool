@@ -28,9 +28,10 @@
 // 
 // This notice may not be removed from this file.
 
-#import <SenTestingKit/SenTest.h>
-#import <SenTestingKit/SenTestCase.h>
 #import <Foundation/Foundation.h>
+
+#import "SenTest.h"
+#import "SenTestCase.h"
 
 /*"A TestSuite is a Composite of Tests. It runs a collection of test cases. Here is an example using the dynamic test definition.
 
